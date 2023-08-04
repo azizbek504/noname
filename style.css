@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.aaa {
+    max-width: 1200px;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 20px;
+}
+.div1 {
+    padding: 25px;
+    text-align: center;
+    background-color: greenyellow;
+    width: 22%;
+
+}
+.rasm {
+    width: 100%;
+    border-radius: 100%;
+}
+@media (max-width:900px) {
+    .div1{
+        width: 31%;
+    } 
+    .aaa {
+        justify-content: flex-start;
+        column-gap: 3.5%;
+    }
+}
+@media (max-width:700px){
+    .div1 {
+        width: 49%
+        
+        ;
+    }
+}
